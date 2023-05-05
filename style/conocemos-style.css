@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: Plus Jakarta Sans,Helvetica Neue,Helvetica,Arial,sans-serif;  
+    background-color: #1B2631;
+}
+
+/*encabezado de la pagina, titulo-logo con opcciones de inicio-contacto-registrate-conocenos*/
+
+header .nombre-empresa{
+    margin: 0;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 2.3em;
+    color: #00ff6e;
+    font-style: oblique;
+}
+
+header .logo{
+    display: flex;
+    flex-direction: center;
+    background-color: black;
+    padding-right: 150px;
+}
+
+header nav .conocenos{
+    color: #00ff6e;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: center;
+    padding-bottom: 3px;
+    color: white;
+    
+}
+
+header a{
+    font-size: 21px;
+    align-items: center;
+    display: flex;
+    padding: 15px 78px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+} /*Fin encabezado (barra de navegacion)*/
+
+header a:hover{
+    color: #00ff6e;
+} /*Animacion bara de navegacion*/
+
+#conocenos{ /*Desarrollo conocenos/texto y titulo*/
+    padding: 200px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.titulo{
+    font-size: 39px;
+}
+
+#conocenos p{
+    font-size: 20px;
+}
+
+#conocenos .color-1{
+    color: #00ff6e;
+} /*Fin desarrollo conocenos/texto y titulo*/
+
+footer .fin-pagina{ /*Pie de pagina*/
+    color: white;
+    padding-top: 175px;
+}
+
+.fin-pagina .color-2{
+    color: #00ff6e ;
+} /*Fin pie de pagina*/
+
