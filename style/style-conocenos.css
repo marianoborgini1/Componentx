@@ -1,10 +1,15 @@
 body{
     margin: 0;
-    font-family: Plus Jakarta Sans,Helvetica Neue,Helvetica,Arial,sans-serif;  
-    background-color: #1B2631;
+    font-family: Work Sans;  
+    background-color: #222;
 }
 
 /*encabezado de la pagina, titulo-logo con opcciones de inicio-contacto-registrate-conocenos*/
+
+header{
+    position: fixed;
+    width: 100%;
+}
 
 header .nombre-empresa{
     margin: 0;
@@ -43,6 +48,10 @@ header a{
 header a:hover{
     color: #00ff6e;
 } /*Animacion bara de navegacion*/
+
+header nav .conocenos{
+    color: #ABB2B9;
+}
 
 #conocenos{ /*Desarrollo conocenos/texto y titulo*/
     padding: 200px;
