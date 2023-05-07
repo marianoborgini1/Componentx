@@ -3,12 +3,7 @@ body{ /*Configuraciones generales -*/
     font-family: Plus Jakarta Sans,Helvetica Neue,Helvetica,Arial,sans-serif;  
     background-color: #F0F3F4;
 }
-
-
-header{ /*Encabezado/barra de navegacion -*/
-    position: fixed;
-    width: 100%;
-}
+/*encabezado de la pagina, titulo-logo con opcciones de inicio-contacto-registrate-conocenos*/
 
 header .nombre-empresa{
     margin: 0;
@@ -26,11 +21,6 @@ header .logo{
     padding-right: 150px;
 }
 
-header nav .inicio{
-    color: #00ff6e;
-}
-
-
 header nav{
     display: flex;
     flex-direction: center;
@@ -47,11 +37,11 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: white;
-} /*Fin encabezado/barra de navegacion-*/
+} /*Fin encabezado (barra de navegacion)*/
 
 header a:hover{
     color: #00ff6e;
-} /*Animacion barra de navegacion-*/
+} /*Animacion bara de navegacion*/
 
 #section-1 .conteiner-principal{ /*Conteiner principal imagen con titulo h1 -*/
     font-size: 30px;
@@ -62,12 +52,12 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("/img/");
+    ,url("/img/fondo-principal.jpg");
 
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 200px;
+    height: 130px;
 }
 
 
@@ -90,7 +80,9 @@ header a:hover{
 }
 
 .conteiner-principal-2 a:hover{
-    color: blue;
+    color: #11aa54;
+    transition: 0.5s;
+    opacity: 0.9;
 }
 
 .conteiner-principal-2 .temario{
@@ -122,7 +114,12 @@ header a:hover{
     padding-bottom: 15px;
     font-size: 17px;
     color: #203243 ;
-} /* Fin placa mother */
+} 
+
+.explicacion-placa-mother span{
+    color: #11aa54;
+    font-weight: bold;
+}/* Fin placa mother */
 
 #section-4-procesador .procesador-titulo{ /* Imagen procesador con titulo h2*/
     font-size: 30px;
@@ -147,7 +144,12 @@ header a:hover{
     padding-bottom: 15px;
     font-size: 17px;
     color: #203243 ;
-} /* Fin procesador*/
+} 
+
+.explicacion-procesador span{
+    color: #11aa54;
+    font-weight: bold;
+}/* Fin procesador*/
 
 #section-5-memoria-ram .memoria-ram-titulo{ /* imagen memoria ram con titulo h2*/
     font-size: 30px;
@@ -172,7 +174,12 @@ header a:hover{
     padding-bottom: 15px;
     font-size: 17px;
     color: #203243 ;
-} /* fin memoria ram*/
+}
+
+.explicacion-memoria-ram span{
+    color: #11aa54;
+    font-weight: bold;
+}/* fin memoria ram*/
 
 #section-6-disco-duro .disco-duro-titulo{ /* Imagen disco duro con titulo h2*/
     font-size: 30px;
@@ -197,7 +204,14 @@ header a:hover{
     padding-bottom: 15px;
     font-size: 17px;
     color: #203243 ;
-} /*Fin disco duro*/
+} 
+
+.explicacion-disco-duro span{
+    color: #11aa54;
+    font-weight: bold;
+}
+
+/*Fin disco duro*/
 
 #section-7-disco-solido .disco-solido-titulo{ /* Imagen disco solido con titulo h2*/
     font-size: 30px;
@@ -299,11 +313,89 @@ header a:hover{
     color: #203243 ;
 }/* Fin fuente de alimentacion*/
 
-footer .fin-pagina{ /* Pie de pagina*/
-    background-color: black;
+/* Pie de pagina*/
+footer{
+    background-color: #111;
+    margin: 0;
+    padding-bottom: 1px;
+}
+
+.footer-conteiner{
+    padding: 70px 30px 20px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-icons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social-icons a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+.footer-bottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p{
     color: white;
 }
 
-.fin-pagina .color-2{
+.designer{
     color: #00ff6e;
-}/* Fin pie de pagina */
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px){
+    .footer-nav ul{
+        flex-direction: column;
+    }
+
+    .footer-nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+/* Fin pie de pagina */
