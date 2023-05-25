@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>ComponentX</title>
 </head>
 
     <header>
-
         <!--encabezado/ titulo/logo/barra de navegacion--> 
-        <div class="logo">
-
-            <p class="nombre-empresa"> ComponentX</p>
-
-            <nav> 
-                <a href="#" class="inicio"> Inicio </a>
-                
-                <a href="contactanos.html" class="contacto"> Contacto </a>
-
-                <a href="conocenos.html" class="conocenos"> Conocenos </a>
-            </nav>
+        <div class="topnav" id="myTopnav">
+            <div class="logo">
+                <p><a href="#">ComponentX</a></p>
+            </div>
+            <a href="#" class="active">Inicio</a>
+            <a href="/Pages/contactanos.html">Contacto</a>
+            <a href="/Pages/conocenos.html">Nosotros</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
         </div>
     </header>
 
@@ -194,14 +192,11 @@
 
             <div class="explicacion-disco-solido">
                 <p>
-                    El primer SSD fue creado en 1976 por Dataram Corporation, pero no fue hasta la década de 2000 que los SSD comenzaron a ser más comunes. En los últimos años, los SSD se han vuelto cada vez más populares debido a su alta velocidad, capacidad y durabilidad. Los SSD también son más costosos que los HDD, por lo que se utilizan principalmente en sistemas de gama alta. <br>
-                    Hay varios tipos de SSD disponibles en el mercado, incluidos los SSD SATA, SSD NVMe y SSD PCIe. El SATA SSD es el tipo de SSD más común, y utiliza los mismos puertos y cables que los discos duros tradicionales. El SSD NVMe utiliza una interfaz de host PCI Express (PCIe) y tiene una velocidad de transferencia de datos mucho más rápida que el SATA SSD. El SSD PCIe es el tipo más rápido de SSD disponible y utiliza un puerto PCIe dedicado para la transferencia de datos. <br>
-                    Una de las principales ventajas de un SSD es su velocidad. Los SSD tienen tiempos de acceso más rápidos que los HDD, lo que significa que el sistema operativo y las aplicaciones se cargarán más rápido. Los SSD también tienen una mayor velocidad de escritura y lectura de datos que los HDD, lo que los hace ideales para tareas que requieren una alta velocidad de almacenamiento, como la producción de video y audio. <br>
-                    Otra ventaja de los SSD es su durabilidad. Como no tienen partes móviles, los SSD son menos propensos a fallas mecánicas. Esto significa que los SSD tienen una vida útil más larga que los HDD y son menos propensos a dañarse si se caen o se golpean. <br>
-                    Los SSD también consumen menos energía que los HDD. Debido a que no tienen partes móviles, los SSD no necesitan tanta energía para funcionar. Esto significa que los SSD usan menos energía y generan menos calor que los HDD, lo que a su vez significa que se necesitan menos ventiladores para mantenerlos frescos. <br>
-                    Sin embargo, como se mencionaron anteriormente, los SSD también tienen algunas desventajas. El costo es una de las principales desventajas de los SSD. Los SSD son mucho más costosos que los HDD, lo que significa que una unidad de estado sólido de alta capacidad puede ser prohibitiva para algunos usuarios. <br>
-                    Otra desventaja de los SSD es su capacidad de almacenamiento. Los SSD tienen una capacidad de almacenamiento menor que los HDD de tamaño similar, lo que significa que las unidades de estado sólido de alta capacidad son más costosas que los HDD de alta capacidad. <br>
-                    En conclusión, un SSD es un dispositivo de almacenamiento de datos que utiliza memoria flash o chips de memoria no volátiles para almacenar y recuperar información. Los SSD tienen varias ventajas sobre los discos duros tradicionales, incluida una mayor velocidad, durabilidad y eficiencia energética. Sin embargo, los SSD también tienen algunas desventajas, incluido el costo y la capacidad de almacenamiento limitada. 
+                    <b>Los</b> <span>SSD (Solid-State Drives)</span> son dispositivos de almacenamiento de datos que se volvieron más comunes en la década de 2000. Han ganado popularidad debido a su alta <b>velocidad, durabilidad y eficiencia energética</b>. Hay diferentes <b>tipos de SSD</b> en el mercado, como el <b>SATA SSD, el NVMe SSD y el PCIe SSD</b>. El <b>SATA SSD</b> es el más común y utiliza los mismos puertos y cables que los discos duros tradicionales. <b>El NVMe SSD</b> ofrece una velocidad de transferencia de datos mucho más rápida, mientras que el <b>PCIe SSD</b> es el más rápido y utiliza un puerto PCIe dedicado para la transferencia de datos.
+                    <br>
+                    Una de las principales <b>ventajas de los SSD</b> es su velocidad, ya que tienen tiempos de acceso más rápidos y una mayor velocidad de escritura y lectura de datos que los HDD. También son más móviles duraderos al no tener partes, lo que hace <b>menos probables a fallas mecánicas</b>. Además, consumen menos energía y generan menos calor que los HDD. Sin embargo, los SSD son más costosos y tienen una capacidad de almacenamiento menor en comparación con los HDD de tamaño similar, lo que puede ser una limitación para algunos usuarios.
+                    <br>
+                    <b>En resumen</b>, <b>los SSD son dispositivos de almacenamiento rápidos, duraderos y eficientes energéticamente</b>. Aunque tienen algunas desventajas, como el costo y la capacidad limitada, su rendimiento superior los hace populares en sistemas de gama alta y tareas que requieren una alta velocidad de almacenamiento.
                     
                 </p>
             </div>
@@ -214,11 +209,8 @@
 
             <div class="explicacion-disco-m2">
                 <p>
-                    El disco M.2 es una evolución de los discos de estado sólido tradicionales (SSD), con una forma más compacta y una mayor velocidad de transferencia de datos. La principal ventaja del M.2 es su diseño físico, que permite instalar el disco directamente en la placa base sin necesidad de cables adicionales. Además, el puerto M.2 es más rápido que los puertos SATA tradicionales, lo que permite una mayor velocidad de transferencia de datos. <br>
-                    Los discos M.2 están disponibles en diferentes tamaños, desde 30 mm hasta 110 mm de longitud. Los modelos más comunes son el M.2 SATA y el M.2 NVMe. El M.2 SATA utiliza la interfaz SATA, que ofrece una velocidad de transferencia de datos similar a la de un disco duro o SSD tradicional. Por otro lado, el M.2 NVMe utiliza la interfaz PCIe, que es mucho más rápida y ofrece velocidades de transferencia de datos hasta cinco veces superiores a las del M.2 SATA. <br>
-                    Otra ventaja del disco M.2 es su bajo consumo de energía. La mayoría de los discos M.2 se alimentan directamente del bus PCIe, lo que significa que no necesitan una fuente de alimentación externa. Esto los convierte en una buena opción para equipos portátiles y otros dispositivos de bajo consumo de energía. <br>
-                    En cuanto a la instalación, los discos M.2 son relativamente fáciles de instalar. Lo único que se necesita es un puerto M.2 en la placa base y un destornillador para fijar el disco en su lugar. Una vez instalado, el disco se reconocerá automáticamente en el sistema operativo y se puede utilizar como cualquier otro dispositivo de almacenamiento. <br>
-                    En resumen, un disco M.2 es una unidad de almacenamiento en estado sólido que se conecta directamente a la placa base de la computadora mediante un puerto M.2. Ofrece una mayor velocidad de transferencia de datos, un menor consumo de energía y una fácil instalación, lo que lo hace ideal para computadoras de sobremesa, portátiles y otros dispositivos de baja potencia.
+                    <b>El</b> <span>disco M.2</span> es una <b>evolución</b> de los SSD tradicionales, con un diseño compacto que <b>se conecta directamente a la placa base sin cables adicionales</b>. Ofrece una <b>mayor velocidad de transferencia de datos</b> en comparación con los puertos SATA tradicionales. Hay <b>dos tipos comunes de discos M.2: el M.2 SATA, que tiene una velocidad similar a la de un SSD tradicional, y el M.2 NVMe, que utiliza la interfaz PCIe y ofrece velocidades de transferencia de datos hasta cinco veces superiores</b>. El disco M.2 también tiene un bajo consumo de energía al obtener energía directamente del bus PCIe. Es fácil de instalar y se reconoce automáticamente en el sistema operativo. <br>
+                    <b>En resumen</b>, <b>el disco M.2 es una unidad de almacenamiento compacta y rápida que se conecta directamente a la placa base, sin cables adicionales</b>. Ofrece una alta velocidad de transferencia de datos, bajo consumo de energía y una instalación sencilla, lo que lo convierte en una opción ideal para computadoras de escritorio, portátiles y dispositivos de baja potencia.
                 </p>
             </div>
         </section>
@@ -231,13 +223,13 @@
             
             <div class="explicacion-placa-video">
                 <p>
-                    Una placa de video está hecha de circuitos integrados y dispone de memoria de video dedicada a procesar y generar las imágenes en el monitor o pantalla. <br>
-                    La placa de video es una vital para la experiencia de videojuegos, edición de video y cualquier otra actividad que requiera una alta tasa de gráficos, resoluciones y velocidades de procesamiento. <br>
-                    Existen diferentes características a considerar a la hora de comprar una nueva placa de video, tales como la cantidad de RAM, la capacidad de procesamiento, la compatibilidad con la tarjeta madre del equipo, y la cantidad de puertos de entrada y salida. <br>
-                    Los fabricantes de placas de video más populares incluyen NVIDIA y AMD, los cuales ofrecen un amplio rango de opciones y características distintivas para satisfacer las necesidades de los usuarios. <br>
-                    Las placas de video modernas, como la NVIDIA GeForce RTX 2080 y la AMD Radeon RX 5700XT, ofrecen una experiencia de juego y una edición de video fluida y rápida, con mejoras notables en la calidad gráfica y de visualización. <br>
-                    Para instalar una placa de video en un equipo, es necesario tomar en cuenta la fuente de poder para garantizar que tiene suficiente capacidad para soportar la placa, además de seguir las instrucciones proporcionadas por el fabricante para conectar correctamente la placa. <br>
-                    En resumen, una placa de video es un componente esencial en la informática moderna, encargado de procesar y generar gráficos de alta calidad, resolución y velocidad para una amplia gama de aplicaciones, incluidos videojuegos, diseño gráfico y edición de video. Su elección llegó de las necesidades y especificaciones del equipo y del usuario.
+                    <b>Una</b> <span>placa de video</span> está hecha de circuitos integrados y dispone de memoria de video dedicada a procesar y generar las imágenes en el monitor o pantalla. <br>
+                    <b>La placa de video es una vital para la experiencia de videojuegos, edición de video y cualquier otra actividad que requiera una alta tasa de gráficos, resoluciones y velocidades de procesamiento</b>. <br>
+                    Existen diferentes características a considerar a la hora de comprar una nueva placa de video, tales como la <b>cantidad de RAM</b>, la <b>capacidad de procesamiento</b>, la <b>compatibilidad con la tarjeta madre</b> del equipo, y la <b>cantidad de puertos de entrada y salida</b>. <br>
+                    Los fabricantes de placas de video más populares incluyen <b>NVIDIA y AMD</b>, los cuales ofrecen un amplio rango de opciones y características distintivas para satisfacer las necesidades de los usuarios. <br>
+                    Las placas de video modernas, como la <b>NVIDIA GeForce RTX 2080 y la AMD Radeon RX 5700XT</b>, ofrecen una experiencia de juego y una edición de video fluida y rápida, con mejoras notables en la calidad gráfica y de visualización. <br>
+                    Para instalar una placa de video en un equipo, es necesario tomar en cuenta <b>la fuente de poder</b> para garantizar que tiene suficiente capacidad para soportar la placa, además de seguir las instrucciones proporcionadas por el fabricante para conectar correctamente la placa. <br>
+                    <b>En resumen</b>, <b>una placa de video es un componente esencial en la informática moderna</b>, encargado de procesar y generar gráficos de alta calidad, resolución y velocidad para una amplia gama de aplicaciones, incluidos videojuegos, diseño gráfico y edición de video. Su elección llegó de las necesidades y especificaciones del equipo y del usuario.
                 </p>
             </div>
         </section>
@@ -250,13 +242,8 @@
 
             <div class="explicacion-fuente-alimentacion">
                 <p>
-                    Una fuente de alimentación de PC funciona mediante la transformación de la corriente eléctrica de 220V o 110V (dependiendo del país) en una corriente continua de 3,3V, 5V, 12V o -12V que es requerida por los componentes internos de la computadora. Este proceso se realiza mediante el uso de transformadores, rectificadores, capacitores y reguladores de voltaje. <br>
-                    Las fuentes de alimentación modernas suelen tener un ventilador incorporado para mantenerlas frescas y evitar que se sobrecalienten. Además, muchas fuentes de alimentación tienen características de protección contra sobretensiones, altas temperaturas y cortocircuitos que previenen daños a la fuente de alimentación y otros componentes de la computadora. <br>
-                    La fuente de alimentación es uno de los componentes más importantes en una computadora, ya que si falla puede causar daños en otros componentes internos. Por esta razón, es importante asegurarse de que la fuente de alimentación tenga la energía y el voltaje adecuado para los componentes que se van a utilizar en la computadora. <br>
-                    Las fuentes de alimentación también tienen un factor de eficiencia, que indica la cantidad de energía que se utiliza para alimentar los componentes de la computadora en comparación con la cantidad de energía que se consume. Las fuentes de alimentación con una alta eficiencia reducen los costos de energía y son respetuosas con el medio ambiente. <br>
-                    Al seleccionar una fuente de alimentación de PC, se debe considerar el rendimiento, la eficiencia energética, la capacidad de potencia, la calidad de construcción y la estabilidad de voltaje. También es importante verificar la compatibilidad con los componentes de la computadora que se utilizan. <br>
-                    Las fuentes de alimentación de PC están disponibles en varios y tamaños, desde fuentes de alimentación estándar para equipos de escritorio hasta fuentes de alimentación en formato reducido para equipos de formas y oficinas portátiles. También hay fuentes de alimentación modulares que le permiten agregar o quitar cables de alimentación según sea necesario, lo que facilita la administración de cables en la computadora. <br>
-                    Por último, es importante recordar que las fuentes de alimentación de PC no son intercambiables entre diferentes computadoras, ya que los componentes internos de la computadora requieren una cantidad específica y constante de energía y voltaje. Es por eso que, al actualizar o construir una computadora, es importante seleccionar una fuente de alimentación de PC adecuada para los componentes que se utilizan.
+                    <b>La</b> <span>fuente de alimentación</span> de una PC <b>transforma la corriente eléctrica de entrada en una corriente continua de voltajes específicos para alimentar los componentes internos de la computadora</b>. Además de convertir la corriente, las fuentes de alimentación modernas incluyen características de protección y ventiladores para evitar <b>sobrecalentamientos y daños</b>. La selección de una fuente de alimentación adecuada implica considerar el <b>rendimiento</b>, la <b>eficiencia energética</b>, la <b>capacidad de potencia</b> y la <b>compatibilidad con los componentes de la computadora</b>. También existen diferentes tamaños y tipos de fuentes de alimentación, como las <b>estándar y las modulares</b>. Es importante recordar que <b>las fuentes de alimentación no son intercambiables entre computadoras</b> debido a las necesidades específicas de energía y voltaje de los componentes internos. <br>
+                    Además, con el aumento en la demanda de energía de los componentes de alto rendimiento, como las tarjetas gráficas y los procesadores potentes, es importante asegurarse de contar con una <b>fuente de alimentación con la capacidad de potencia adecuada para evitar problemas de estabilidad y garantizar un funcionamiento óptimo del sistema</b>. Una fuente de alimentación de calidad y confiable es crucial para mantener la integridad de la computadora y garantizar un suministro de <b>energía constante y seguro para todos los componentes</b>.
                 </p>
             </div>
         </section> <!-- fin del desarrollo de la pagina y explicacion de los componentes -->
@@ -273,15 +260,15 @@
                 <div class="footer-nav">
                     <ul>
                         <li>
-                            <a href="">Home</a>
+                            <a href="">Inicio</a>
                         </li>
 
                         <li>
-                            <a href="">About</a>
+                            <a href="">Nosotros</a>
                         </li>
 
                         <li>
-                            <a href="">Contact Us</a>
+                            <a href="">contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -293,6 +280,6 @@
                 </div>
             </div>
         </footer>
-
+        <script src="/scripts/index.js"></script>
 </body>
 </html>
