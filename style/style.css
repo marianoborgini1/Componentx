@@ -1,11 +1,9 @@
 body{ /*Configuraciones generales -*/
     margin: 0;
-    font-family: Work Sans;  
     background-color: #F0F3F4;
 }
 
 /*Header*/
-
 header{
     position: fixed;
     width: 100%;
@@ -116,7 +114,7 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 200px;
+    height: 160px;
 } 
 
 .explicacion-placa-mother{  /* Parrafo explicacion placa mother*/
@@ -146,7 +144,7 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 180px;
+    height: 160px;
 }
 
 .explicacion-procesador{ /* Parrafo explicacion procesador*/
@@ -176,7 +174,7 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 180px;
+    height: 160px;
 } 
 
 .explicacion-memoria-ram{ /* parrafo explicacion memoria ram*/
@@ -206,7 +204,7 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 180px;
+    height: 160px;
 }
 
 .explicacion-disco-duro{ /* Parrafo explicacion disco duro */
@@ -238,7 +236,7 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 180px;
+    height: 160px;
 } 
 
 .explicacion-disco-solido{ /* Parrafo explicacion disco solido*/
@@ -268,7 +266,7 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 180px;
+    height: 160px;
 }
 
 .explicacion-disco-m2{ /* Parrafo explicacion disco m.2*/
@@ -298,7 +296,7 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 180px;
+    height: 160px;
 }
 
 .explicacion-placa-video{ /* Parrafo explicacion placa de video*/
@@ -328,7 +326,7 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 180px;
+    height: 160px;
 }
 
 .explicacion-fuente-alimentacion{ /* Parrafo explicacion fuente de alimentacion */

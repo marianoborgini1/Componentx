@@ -2,7 +2,10 @@ body{
     font-family: Work Sans;
     background-color: #F0F3F4;;
     margin: 0;
-    background-color: #559571;
+    background: #575a5c;  
+    background: -webkit-linear-gradient(to right, #ecedee, #6b7074);  
+    background: linear-gradient(to right, #949697, #818b93);
+    
 }
 
 /* Header */
@@ -53,7 +56,7 @@ body{
 /* Final Header */
 
 .form{
-    background-color: black;
+    color: black;
     margin: auto;
     width: 40%;
     max-width: 400px;
@@ -62,8 +65,7 @@ body{
     padding: 1em 2em;
     border-radius: 15px;
     background: transparent;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 
@@ -83,7 +85,11 @@ body{
 
 .form-group{
     position: relative;
-    color: white;
+    color: black;
+}
+
+.form-title{
+    color: black;
 }
 
 .form-input{
@@ -91,15 +97,13 @@ body{
     height: 35px;
     width: 100%;
     background: none;
-    background-color: #F0F3F4;
+    background-color: #ffff;
 }
 
-#form .form-submit{
-    font-weight: bolder;
-    border-radius: px;
-    color: black;
-    background-color: #F0F3F4;
-    height: 30px;
+.form-submit{
+    font-weight: bold;
+    background-color: #fffcfc;
+    height: 28px;
     width: 20%;
 }
 
