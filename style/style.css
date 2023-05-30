@@ -63,7 +63,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/fondo-principal.jpg");
+    ,url("../img/fondo-principal.jpg");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -109,7 +109,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/placa-mother.png");
+    ,url("../img/placa-mother.png");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -139,7 +139,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/procesador.jpg");
+    ,url("../img/procesador.jpg");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -169,7 +169,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/memoria-ram.jpg");
+    ,url("../img/memoria-ram.jpg");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -199,7 +199,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/disco-duro.jpg");
+    ,url("../img/disco-duro.jpg");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -231,7 +231,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/disco-solido.png");
+    ,url("../img/disco-solido.png");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -261,7 +261,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/disco-m.2-.png");
+    ,url("../img/disco-m.2-.png");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -291,7 +291,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/placa-video.png");
+    ,url("../img/placa-video.png");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -321,7 +321,7 @@ header{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
     ) 
-    ,url("img/fuente-alimentacion-pc.png");
+    ,url("../img/fuente-alimentacion-pc.png");
 
     background-repeat: no-repeat ;
     background-size: cover;
@@ -447,7 +447,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
         ) 
-        ,url("img/fondo-pricipal-responsive.jpg");
+        ,url("../img/fondo-pricipal-responsive.jpg");
     
         background-repeat: no-repeat ;
         background-size: cover;
@@ -482,7 +482,7 @@ footer{
                 rgba(0,0,0,0.5),
                 rgba(0,0,0,0.5)  
             ) 
-            ,url("img/placa-mother.png");
+            ,url("../img/placa-mother.png");
         
             background-repeat: no-repeat ;
             background-size: cover;
@@ -507,7 +507,7 @@ footer{
                 rgba(0,0,0,0.5),
                 rgba(0,0,0,0.5)  
             ) 
-            ,url("img/procesador.jpg");
+            ,url("../img/procesador.jpg");
         
             background-repeat: no-repeat ;
             background-size: cover;
@@ -532,7 +532,7 @@ footer{
                 rgba(0,0,0,0.5),
                 rgba(0,0,0,0.5)  
             ) 
-            ,url("img/memoria-ram.jpg");
+            ,url("../img/memoria-ram.jpg");
         
             background-repeat: no-repeat ;
             background-size: cover;
@@ -557,7 +557,7 @@ footer{
                 rgba(0,0,0,0.5),
                 rgba(0,0,0,0.5)  
             ) 
-            ,url("img/disco-duro.jpg");
+            ,url("../img/disco-duro.jpg");
         
             background-repeat: no-repeat ;
             background-size: cover;
@@ -582,7 +582,7 @@ footer{
                 rgba(0,0,0,0.5),
                 rgba(0,0,0,0.5)  
             ) 
-            ,url("img/disco-solido.png");
+            ,url("../img/disco-solido.png");
         
             background-repeat: no-repeat ;
             background-size: cover;
@@ -607,7 +607,7 @@ footer{
                 rgba(0,0,0,0.5),
                 rgba(0,0,0,0.5)  
             ) 
-            ,url("/img/disco-m.2-.png");
+            ,url("../img/disco-m.2-.png");
         
             background-repeat: no-repeat ;
             background-size: cover;
@@ -632,7 +632,7 @@ footer{
                 rgba(0,0,0,0.5),
                 rgba(0,0,0,0.5)  
             ) 
-            ,url("img/placa-video.png");
+            ,url("../img/placa-video.png");
         
             background-repeat: no-repeat ;
             background-size: cover;
@@ -658,7 +658,7 @@ footer{
                 rgba(0,0,0,0.5),
                 rgba(0,0,0,0.5)  
             ) 
-            ,url("img/fuente-alimentacion-pc.png");
+            ,url("../img/fuente-alimentacion-pc.png");
         
             background-repeat: no-repeat ;
             background-size: cover;
@@ -692,7 +692,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
         ) 
-        ,url("img/fondo-pricipal-responsive.jpg");
+        ,url("../img/fondo-pricipal-responsive.jpg");
         
         background-repeat: no-repeat ;
         background-size: cover;
@@ -727,7 +727,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
             ) 
-        ,url("img/placa-mother.png");
+        ,url("../img/placa-mother.png");
         
         background-repeat: no-repeat ;
         background-size: cover;
@@ -752,7 +752,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
         ) 
-        ,url("img/procesador.jpg");
+        ,url("../img/procesador.jpg");
         
         background-repeat: no-repeat ;
         background-size: cover;
@@ -777,7 +777,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
         ) 
-        ,url("img/memoria-ram.jpg");
+        ,url("../img/memoria-ram.jpg");
         
         background-repeat: no-repeat ;
         background-size: cover;
@@ -802,7 +802,7 @@ footer{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)  
         ) 
-        ,url("img/disco-duro.jpg");
+        ,url("./../img/disco-duro.jpg");
         
         background-repeat: no-repeat ;
         background-size: cover;
@@ -827,7 +827,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
         ) 
-        ,url("img/disco-solido.png");
+        ,url("../img/disco-solido.png");
         
         background-repeat: no-repeat ;
         background-size: cover;
@@ -852,7 +852,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
         ) 
-        ,url("img/disco-m.2-.png");
+        ,url("../img/disco-m.2-.png");
         
         background-repeat: no-repeat ;
         background-size: cover;
@@ -877,7 +877,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
         ) 
-        ,url("img/placa-video.png");
+        ,url("../img/placa-video.png");
 
         background-repeat: no-repeat ;
         background-size: cover;
@@ -903,7 +903,7 @@ footer{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)  
             ) 
-            ,url("img/fuente-alimentacion-pc.png");
+            ,url("../img/fuente-alimentacion-pc.png");
 
         background-repeat: no-repeat ;
         background-size: cover;
