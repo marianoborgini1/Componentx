@@ -22,10 +22,6 @@ header{
     color: #00ff6e;
 }
 
-.topnav .logo p a:hover{
-    color: #ABB2B9;
-}
-
 .topnav a {
     float: left;
     display: block;
