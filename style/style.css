@@ -1,6 +1,7 @@
 body{ /*Configuraciones generales -*/
     margin: 0;
     background-color: #F0F3F4;
+    font-family: Roboto Slab;
 }
 
 /*Header*/
