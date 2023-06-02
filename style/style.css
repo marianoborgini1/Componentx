@@ -328,8 +328,8 @@ header{
 
 .explicacion-fuente-alimentacion{ /* Parrafo explicacion fuente de alimentacion */
     padding: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 1px;
     font-size: 17px;
     color: #203243 ;
 }/* Fin fuente de alimentacion*/
@@ -337,6 +337,36 @@ header{
 .explicacion-fuente-alimentacion span{
     color: #11aa54;
     font-weight: bold;
+}
+
+/*Iframe y video*/
+
+iframe{
+    padding-left: 200px;
+    width: 500px;
+    height: 300px;
+}
+
+#iframe-video .texto{
+    padding-left: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+video{
+    width: 500px;
+    height: 300px;
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#video .texto{
+    padding-left: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 
@@ -413,6 +443,7 @@ footer{
     font-weight: 400;
     margin: 0px 5px;
 }
+
 
 @media only screen and (max-width : 553px) { /*Tamaño para Celular*/
 
@@ -670,6 +701,30 @@ footer{
             font-size: 13px;
             color: #203243 ;
         }/* Fin fuente de alimentacion*/
+
+        iframe{
+            padding-left: 10px;
+        }
+        
+        #iframe-video .texto{
+            padding-left: 10px;
+            font-size: 13px;
+            font-weight: bold;
+            padding-top: 2px;
+        }
+        
+        video{
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        
+        #video .texto{
+            padding-left: 10px;
+            font-size: 13px;
+            font-weight: bold;
+            padding-top: 20px;
+        }
     
         .footer-nav ul li a{
             text-decoration: none; 
@@ -915,6 +970,35 @@ footer{
         font-size: 13px;
         color: #203243 ;
     }/* Fin fuente de alimentacion*/
+
+    iframe{
+        padding-left: 10px;
+        width: 250px;
+        height: 200px;
+    }
+    
+    #iframe-video .texto{
+        padding-left: 10px;
+        font-size: 13px;
+        font-weight: bold;
+        padding-top: 2px;
+    }
+    
+    video{
+        width: 250px;
+        height: 200px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #video .texto{
+        padding-left: 10px;
+        font-size: 13px;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+
     
     .footer-nav ul li a{
         text-decoration: none;

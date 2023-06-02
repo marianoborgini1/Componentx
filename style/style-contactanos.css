@@ -1,10 +1,8 @@
 body{
     font-family: Work Sans;
-    background-color: #F0F3F4;;
     margin: 0;
-    background: #575a5c;  
-    background: -webkit-linear-gradient(to right, #ecedee, #6b7074);  
-    background: linear-gradient(to right, #949697, #818b93);
+    background: -webkit-linear-gradient(to right, #d4d4d5, #6b7074);  
+    background: linear-gradient(to right, #535455, #9ea7ae);
     
 }
 
@@ -50,7 +48,7 @@ body{
 
 /* Final Header */
 
-.form{
+#form{
     color: black;
     margin: auto;
     width: 40%;
@@ -186,7 +184,7 @@ footer{
         background-color: #559571;
     }
 
-    .form{
+    #form{
         background-color: black;
         margin: auto;
         width: 50%;
@@ -270,7 +268,7 @@ footer{
         text-align: left;
         }
 
-    .form{
+    #form{
         background-color: black;
         margin: auto;
         width: 78%;
