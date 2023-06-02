@@ -1,6 +1,8 @@
+/*Tipografia*/
+@import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
+
 body{
     margin: 0;
-    font-family: Work Sans;  
     background-color: #222;
 }
 
@@ -147,6 +149,9 @@ footer{
 
 @media only screen and (max-width : 700px){
 
+    /*Tipografia*/
+    @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
+
     #conocenos{ /*Desarrollo conocenos/texto y titulo*/
         padding: 10px;
         color: white;
@@ -176,6 +181,9 @@ footer{
 }
 
 @media only screen and (max-width : 553px){
+
+    /*Tipografia*/
+    @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
 
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {

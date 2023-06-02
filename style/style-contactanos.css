@@ -1,5 +1,7 @@
+/*Tipografia*/
+@import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
+
 body{
-    font-family: Work Sans;
     margin: 0;
     background: -webkit-linear-gradient(to right, #d4d4d5, #6b7074);  
     background: linear-gradient(to right, #535455, #9ea7ae);
@@ -177,6 +179,9 @@ footer{
 
 @media only screen and (max-width : 700px){
 
+    /*Tipografia*/
+    @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
+
     body{
         font-family: Work Sans;
         background-color: #F0F3F4;;
@@ -241,6 +246,9 @@ footer{
 }
 
 @media only screen and (max-width : 553px){  /*Tamaño para Celular*/
+
+    /*Tipografia*/
+    @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
 
     body{
         font-family: Work Sans;
