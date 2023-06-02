@@ -22,7 +22,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
     if (email === "" || celu === "" || dni === "") {
     alert("El formulario está incompleto. Por favor, complete todos los campos.");
     } else {
-    alert("Gracias por llenar el formulario, se comunicarán con ustedes a la brevedad.");
+    alert("Gracias por llenar el formulario, se comunicarán con usted a la brevedad.");
     }
 });
 //Final Formulario alert lleno/vacio//
