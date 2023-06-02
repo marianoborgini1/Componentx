@@ -5,11 +5,9 @@ body{
     margin: 0;
     background: -webkit-linear-gradient(to right, #d4d4d5, #6b7074);  
     background: linear-gradient(to right, #535455, #9ea7ae);
-    
 }
 
 /* Header */
-
 .topnav {
     background-color: black;
     overflow: hidden;
@@ -46,9 +44,7 @@ body{
 
 .topnav .icon {
     display: none;
-}
-
-/* Final Header */
+}/* Final Header */
 
 #form{
     color: black;
@@ -182,12 +178,6 @@ footer{
     /*Tipografia*/
     @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
 
-    body{
-        background-color: #F0F3F4;;
-        margin: 0;
-        background-color: #559571;
-    }
-
     #form{
         background-color: black;
         margin: auto;
@@ -320,8 +310,6 @@ footer{
         height: 30px;
         width: 30%;
     }
-
-
 
     .footer-nav ul li a{
         text-align: center;
