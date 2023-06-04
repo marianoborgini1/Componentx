@@ -350,7 +350,6 @@ iframe{
 #iframe-video .texto{
     padding-left: 200px;
     font-size: 18px;
-    font-weight: bold;
     padding-top: 2px;
 }
 
@@ -365,7 +364,6 @@ video{
 #video .texto{
     padding-left: 200px;
     font-size: 18px;
-    font-weight: bold;
     padding-top: 20px;
 }
 
@@ -712,7 +710,6 @@ footer{
         #iframe-video .texto{
             padding-left: 10px;
             font-size: 13px;
-            font-weight: bold;
             padding-top: 2px;
         }
         
@@ -725,7 +722,6 @@ footer{
         #video .texto{
             padding-left: 10px;
             font-size: 13px;
-            font-weight: bold;
             padding-top: 20px;
         }
     
@@ -985,7 +981,6 @@ footer{
         #iframe-video .texto{
             padding-left: 10px;
             font-size: 13px;
-            font-weight: bold;
             padding-top: 2px;
         }
         
@@ -1000,7 +995,6 @@ footer{
         #video .texto{
             padding-left: 10px;
             font-size: 13px;
-            font-weight: bold;
             padding-top: 20px;
         }
 

@@ -13,12 +13,12 @@ function myFunction() {
 document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    // Obtener los valores de los campos
+    // Obtener los valores de los campos //
     let email = document.getElementById("email").value;
     let celu = document.getElementById("number").value;
     let dni = document.getElementById("dni").value;
 
-    // Verificar si los campos están vacíos
+    // Verificar si los campos están vacíos //
     if (email === "" || celu === "" || dni === "") {
     alert("El formulario está incompleto. Por favor, complete todos los campos.");
     } else {
