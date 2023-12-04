@@ -1,12 +1,14 @@
-/*Tipografia*/
-@import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
-
-body{ /*Configuraciones generales*/
+body{
     margin: 0;
-    background-color: #F0F3F4;
+    background-color: #fefcfc;
 }
 
-/*Header*/
+/*----------Config----------------------------*/
+section,footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------Header-------------------------*/
 header{
     position: fixed;
     width: 100%;
@@ -14,7 +16,8 @@ header{
 
 .topnav {
     background-color: black;
-    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 
 .topnav .logo p a{
@@ -49,13 +52,10 @@ header{
 .topnav .icon {
     display: none;
 }
-/*Final Header*/
 
-
-#section-1 .conteiner-principal{ /*Conteiner principal imagen con titulo h1 -*/
-    font-size: 30px;
+/*----------Principal-Img---------------------------*/
+#img-principal { 
     color: white;
-    padding: 160px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -66,309 +66,287 @@ header{
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center center;
-    height: 180px;
+    height: 430px;
 }
 
-#section-2{  /*Introduccion explicacion Pc*/
-    padding: 170px;
+/*----------Temario----------------------------*/
+#temario-introduccion { 
+    padding: 70px;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
-.conteiner-principal-2 {
-    padding-top: 2px;
-    color: #203243 ;
-    font-size: 18px;
-}  
-
-.conteiner-principal-2 a{ 
-    text-decoration: none;
-    color: #203243 ;
-}
-
-.conteiner-principal-2 a:hover{
-    color: #11aa54;
-    transition: 0.4s;
-    opacity: 0.9;
-}
-
-.conteiner-principal-2 .temario{
+#temario-introduccion .temario a{
     font-weight: bold;
-} /* Fin de la introduccion*/
+    text-decoration: none;
+    color: black;
+}
 
+#temario-introduccion .temario p{
+    font-weight: bold;
+    padding-left: 22px;
+    font-size: 22px;
+}
 
-#section-3-placa-mother .placa-mother-titulo{ /* Imagen placa mother con titulo h2*/
-    font-size: 30px;
-    color: white;
-    padding: 100px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)  
-    ) 
-    ,url("../img/placa-mother.png");
+#temario-introduccion .temario a:hover{
+    transition: 0.3s;
+    color: #11aa54;
+}
 
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    height: 160px;
-} 
+#placa-mother, #procesador, #memoria-ram, #disco-duro, #disco-solido, #disco-m2 , #placa-video, #fuente-alimentacion{
+    padding-left: 1px;
+    display: flex;
+}
 
-.explicacion-placa-mother{  /* Parrafo explicacion placa mother*/
-    padding: 170px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    color: #203243 ;
-} 
+/*----------separador----------------------------*/
+hr{
+    border: 2px black solid;
+    width: 95%;
+}
+
+/*----------Mother----------------------------*/
+.placa-mother-img img{
+    padding-left: 55px;
+    padding-top: 45px;
+    width: 430px;
+    height: 270px;
+}
+
+.explicacion-placa-mother{
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;
+}
 
 .explicacion-placa-mother span{
     color: #11aa54;
     font-weight: bold;
-}/* Fin placa mother */
-
-#section-4-procesador .procesador-titulo{ /* Imagen procesador con titulo h2*/
-    font-size: 30px;
-    color: white;
-    padding: 100px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)  
-    ) 
-    ,url("../img/procesador.jpg");
-
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    height: 160px;
 }
 
-.explicacion-procesador{ /* Parrafo explicacion procesador*/
-    padding: 170px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    color: #203243 ;
+.placa-mother-img{
+    padding-bottom: 0px;
+}
+
+/*----------Procesador----------------------------*/
+.procesador-img img{
+    padding-left: 55px;
+    padding-top: 85px;
+    width: 430px;
+    height: 270px;
+}
+
+.explicacion-procesador{ 
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;
 } 
 
 .explicacion-procesador span{
     color: #11aa54;
     font-weight: bold;
-}/* Fin procesador*/
+}
 
-#section-5-memoria-ram .memoria-ram-titulo{ /* imagen memoria ram con titulo h2*/
-    font-size: 30px;
-    color: white;
-    padding: 100px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)  
-    ) 
-    ,url("../img/memoria-ram.jpg");
+.procesador-img{
+    padding-bottom: 0px;
+}
 
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    height: 160px;
-} 
+/*----------Memoria Ram----------------------------*/
+.ram-img img{
+    padding-left: 55px;
+    padding-top: 75px;
+    width: 430px;
+    height: 270px;
+}
 
-.explicacion-memoria-ram{ /* parrafo explicacion memoria ram*/
-    padding: 170px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    color: #203243 ;
+.explicacion-memoria-ram{
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;
 }
 
 .explicacion-memoria-ram span{
     color: #11aa54;
     font-weight: bold;
-}/* fin memoria ram*/
-
-#section-6-disco-duro .disco-duro-titulo{ /* Imagen disco duro con titulo h2*/
-    font-size: 30px;
-    color: white;
-    padding: 100px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)  
-    ) 
-    ,url("../img/disco-duro.jpg");
-
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    height: 160px;
 }
 
-.explicacion-disco-duro{ /* Parrafo explicacion disco duro */
-    padding: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    color: #203243 ;
+.ram-img{
+    padding-bottom: 0px;
+}
+
+/*----------Disco Duro----------------------------*/
+.explicacion-disco-duro{
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;
 } 
+
+.disco-duro-img img{
+    padding-left: 55px;
+    padding-top: 100px;
+    width: 430px;
+    height: 270px;
+}
+
+.disco-duro-img{
+    padding-bottom: 0px;
+}
 
 .explicacion-disco-duro span{
     color: #11aa54;
     font-weight: bold;
 }
 
-/*Fin disco duro*/
+/*----------Disco Solido----------------------------*/
+.explicacion-disco-solido{ 
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;
+}
 
-#section-7-disco-solido .disco-solido-titulo{ /* Imagen disco solido con titulo h2*/
-    font-size: 30px;
-    color: white;
-    padding: 100px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)  
-    ) 
-    ,url("../img/disco-solido.png");
-
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    height: 160px;
-} 
-
-.explicacion-disco-solido{ /* Parrafo explicacion disco solido*/
-    padding: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    color: #203243 ;
-}/* Fin disco solido*/
+.disco-solido-img img{
+    padding-left: 55px;
+    padding-top: 60px;
+    width: 430px;
+    height: 250px;
+}
 
 .explicacion-disco-solido span{
     color: #11aa54;
     font-weight: bold;
 }
 
-#section-8-disco-m2 .disco-m2-titulo{ /* Imagen disco m.2 con titulo h2*/
-    font-size: 30px;
-    color: white;
-    padding: 100px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)  
-    ) 
-    ,url("../img/disco-m.2-.png");
-
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    height: 160px;
+.disco-solido-img{
+    padding-bottom: 0px;
 }
 
-.explicacion-disco-m2{ /* Parrafo explicacion disco m.2*/
-    padding: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    color: #203243 ;
-}/* Fin disco m.2*/
+/*----------Disco M.2----------------------------*/
+.explicacion-disco-m2{ 
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;
+}
+
+.disco-m2-img img{
+    padding-left: 55px;
+    padding-top: 70px;
+    width: 430px;
+    height: 250px;
+}
+
+.disco-m2-img{
+    padding-bottom: 0px;
+}
 
 .explicacion-disco-m2 span{
     color: #11aa54;
     font-weight: bold;
 }
 
-#section-9-placa-video .placa-video-titulo{ /* Imagen placa de video con titulo h2*/
-    font-size: 30px;
-    color: white;
-    padding: 100px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)  
-    ) 
-    ,url("../img/placa-video.png");
-
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    height: 160px;
+/*----------Placa de Video----------------------------*/
+.explicacion-placa-video{ 
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;
 }
 
-.explicacion-placa-video{ /* Parrafo explicacion placa de video*/
-    padding: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    color: #203243 ;
-}/* fin placa de video*/
+.placa-video-img img{
+    padding-left: 55px;
+    padding-top: 90px;
+    width: 430px;
+    height: 250px;
+}
+
+.placa-video-img{
+    padding-bottom: 0px;
+}
 
 .explicacion-placa-video span{
     color: #11aa54;
     font-weight: bold;
 }
 
-#section-10-fuente-alimentacion .fuente-alimentacion-titulo{ /* Imagen fuente alimentacion con titulo h2*/
-    font-size: 30px;
-    color: white;
-    padding: 100px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)  
-    ) 
-    ,url("../img/fuente-alimentacion-pc.png");
-
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center center;
-    height: 160px;
+/*----------Fuente de Alimentacion----------------------------*/
+.explicacion-fuente-alimentacion{ 
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;
 }
 
-.explicacion-fuente-alimentacion{ /* Parrafo explicacion fuente de alimentacion */
-    padding: 200px;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    font-size: 17px;
-    color: #203243 ;
-}/* Fin fuente de alimentacion*/
+.fuente-alimentacion-img img{
+    padding-left: 55px;
+    padding-top: 52px;
+    width: 430px;
+    height: 250px;
+}
 
 .explicacion-fuente-alimentacion span{
     color: #11aa54;
     font-weight: bold;
 }
 
-/*Iframe y video*/
-
-iframe{
-    padding-left: 200px;
-    width: 500px;
-    height: 300px;
-}
-
-#iframe-video .texto{
-    padding-left: 200px;
-    font-size: 18px;
-    padding-top: 2px;
-}
-
-video{
-    width: 500px;
-    height: 300px;
-    padding-left: 200px;
-    padding-top: 10px;
+#fuente-alimentacion{
     padding-bottom: 20px;
 }
 
-#video .texto{
-    padding-left: 200px;
-    font-size: 18px;
-    padding-top: 20px;
+#form{
+    color: black;
+    margin: auto;
+    width: 40%;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 1em 2em;
+    border-radius: 15px;
+    background: transparent;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 
-/* Pie de pagina*/
+.form-title{
+    font-size: 2em;
+}
+
+.texto{
+    font-size: 17px;
+    padding-right: 130px;
+}
+
+.form-container{
+    margin-top: 2em;
+    gap: 2.5em;
+}
+
+.form-group{
+    position: relative;
+    color: black;
+}
+
+.form-title{
+    color: black;
+}
+
+.form-input{
+    border-radius: 8px;
+    height: 35px;
+    width: 100%;
+    background: none;
+    background-color: #ffff;
+}
+
+.form-submit{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #fffcfc;
+    height: 28px;
+    width: 20%;
+}
+
+.form-submit:hover{
+    transition: 0.5s;
+    background-color: #ddd;
+    color: #202020;
+}
+
 footer{
     background-color: #111;
     margin: 0;
@@ -380,52 +358,48 @@ footer{
 }
 
 .social-icons{
-    display: flex;
-    justify-content: center;
+    padding-left: 17px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .social-icons a{
     text-decoration: none;
-    padding: 10px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 50%;
-    font-size: 1.5em;
-    color: black;
+    margin: 14px;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
     opacity: 0.9;
 }
 
 .social-icons a:hover{
-    background-color: #111;
+    color: #c4c4c4;
     transition: 0.5s;
 }
 
-.social-icons a:hover{
-    color: white;
-    transition: 0.5s;
+.footer-nav{
+    padding-left: 12px;
+    text-align: center;
+    padding-bottom: 32px;
 }
 
-.footer-nav ul{
-    display: flex;
-    justify-content: center;
-}
-
-.footer-nav ul li a{
+.footer-nav a{
+    text-align: center;
     color: white;
-    margin: 20px;
+    margin: 8px;
     text-decoration: none;
     font-size: 1.3em;
     opacity: 0.7;
     transition: 0.5s;
 }
 
-.footer-nav ul li a:hover{
+.footer-nav a:hover{
     opacity: 1;
 }
 
 .footer-bottom{
     background-color: #000;
-    padding: 20px;
+    padding: 12px;
     text-align: center;
 }
 
@@ -436,27 +410,71 @@ footer{
 .designer{
     color: #00ff6e;
     opacity: 0.7;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: bolder;
     margin: 0px 5px;
 }
 
+#conocenos{
+    background-color: #faf8f8;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
-@media only screen and (max-width : 553px) { /*Tamaño para Celular*/
+#conocenos .texto-conocenos{
+    width: 50%;
+    font-size: 14.5px;
+    padding-left: 80px;;
+}
 
-        @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
+#conocenos p span b{
+    color: #11aa54;
+}
+
+#contactanos{
+    padding-top: 15px;
+    background-color:  #faf8f8;
+}
+
+
+@media only screen and (max-width : 1100px) { /*Tamaño para Celular*/
         
-
+        .topnav .logo p a{
+            padding-left: 10px;
+            padding-top: 0px;
+            font-size: 35px;
+            color: #00ff6e;
+        }
+        
         .topnav a:not(:first-child) {display: none;}
             .topnav a.icon {
             float: right;
             display: block;
         }
 
-        .topnav.responsive {position: relative;}
+        .burguer{
+            color: white;
+            font-size: 25px;
+        }
+
+        .exit{
+            display: none;
+        }
+
+        .topnav.topnav.responsive .burguer{
+            display: none;
+            
+        }
+
+        .topnav.topnav.responsive .exit{
+            display: block;
+            font-size: 25px;
+            align-items: end;
+        }
+
+
+        .topnav.responsive {position: fixed;}
         .topnav.responsive a.icon {
-        position: absolute;
         right: 0;
         top: 0;
         }
@@ -466,541 +484,337 @@ footer{
         display: block;
         text-align: left;
         }
-    
-        #section-1 .conteiner-principal{
-        padding: 145px;
-        font-size: 10px;
-        color: white;
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)  
-        ) 
-        ,url("../img/fondo-pricipal-responsive.jpg");
-    
-        background-repeat: no-repeat ;
-        background-size: cover;
-        background-position: center center;
-        height: 2px;
-        }
-    
-        #section-1 .conteiner-principal{
-            display: flex;
-            font-size: 18px;
-            padding-left: 42px;
-        }
-    
-        #section-2{
-            padding: 10px;
-        }
-    
-        .conteiner-principal-2{
-            font-size: 13px;
-        }
-    
-        .conteiner-principal-2 .temario{
-            padding-left: 10px;
-        }
-    
-        #section-3-placa-mother .placa-mother-titulo{ /* Imagen placa mother con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/placa-mother.png");
-        
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        } 
-    
-        .explicacion-placa-mother{  /* Parrafo explicacion placa mother*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        } 
-    
-        #section-4-procesador .procesador-titulo{ /* Imagen procesador con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/procesador.jpg");
-        
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        }
-    
-        .explicacion-procesador{ /* Parrafo explicacion procesador*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }
-    
-        #section-5-memoria-ram .memoria-ram-titulo{ /* imagen memoria ram con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/memoria-ram.jpg");
-        
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        } 
-        
-        .explicacion-memoria-ram{ /* parrafo explicacion memoria ram*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }
-    
-        #section-6-disco-duro .disco-duro-titulo{ /* Imagen disco duro con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/disco-duro.jpg");
-        
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        }
-        
-        .explicacion-disco-duro{ /* Parrafo explicacion disco duro */
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        } 
-    
-        #section-7-disco-solido .disco-solido-titulo{ /* Imagen disco solido con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/disco-solido.png");
-        
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        } 
-        
-        .explicacion-disco-solido{ /* Parrafo explicacion disco solido*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }/* Fin disco solido*/
-    
-        #section-8-disco-m2 .disco-m2-titulo{ /* Imagen disco m.2 con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/disco-m.2-.png");
-        
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        }
-        
-        .explicacion-disco-m2{ /* Parrafo explicacion disco m.2*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }/* Fin disco m.2*/
-    
-        #section-9-placa-video .placa-video-titulo{ /* Imagen placa de video con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/placa-video.png");
-        
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        }
-    
-        .explicacion-placa-video{ /* Parrafo explicacion placa de video*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }/* fin placa de video*/
-    
-        #section-10-fuente-alimentacion .fuente-alimentacion-titulo{ /* Imagen fuente alimentacion con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            padding-top: 80px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/fuente-alimentacion-pc.png");
-        
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 80px;
-        }
-        
-        .explicacion-fuente-alimentacion{ /* Parrafo explicacion fuente de alimentacion */
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }/* Fin fuente de alimentacion*/
 
-        iframe{
-            padding-left: 10px;
+        h2{
+            font-size: 24px;
         }
-        
-        #iframe-video .texto{
-            padding-left: 10px;
-            font-size: 13px;
+
+        #temario-introduccion { 
+            padding: 10px;
             padding-top: 2px;
-        }
-        
-        video{
-            padding-left: 10px;
-            padding-top: 10px;
-            padding-bottom: 20px;
-        }
-        
-        #video .texto{
-            padding-left: 10px;
-            font-size: 13px;
-            padding-top: 20px;
+            padding-bottom: 2px;
         }
     
-        .footer-nav ul li a{
-            text-decoration: none; 
+        .explicacion-placa-mother{
+            width: 60%;
+            font-size: 12.5px;
+            padding-left: 25px;
         }
-    
+
+        .placa-mother-img img{
+            padding-left: 40px;
+            padding-top: 45px;
+            width: 320px;
+            height: 200px;
+        }
+
+        .explicacion-procesador{ 
+            width: 60%;
+            font-size: 12.5px;
+            padding-left: 25px;
         } 
+
+        .procesador-img img{
+            padding-left: 40px;
+            padding-top: 85px;
+            width: 320px;
+            height: 200px;
+        }
+
+        .explicacion-memoria-ram{
+            width: 60%;
+            font-size: 12.5px;
+            padding-left: 25px;
+        }
+
+        .ram-img img{
+            padding-left: 40px;
+            padding-top: 85px;
+            width: 320px;
+            height: 200px;
+        }
+
+        .explicacion-disco-duro{
+            width: 60%;
+            font-size: 12.5px;
+            padding-left: 25px;
+        } 
+
+        .disco-duro-img img{
+            padding-left: 40px;
+            padding-top: 100px;
+            width: 320px;
+            height: 200px;
+        }
+
+        .explicacion-disco-solido{ 
+            width: 60%;
+            font-size: 12.5px;
+            padding-left: 25px;
+        }
+
+        .disco-solido-img img{
+            padding-left: 40px;
+            padding-top: 60px;
+            width: 320px;
+            height: 200px;
+        }
+
+        .explicacion-disco-m2{ 
+            width: 60%;
+            font-size: 12.5px;
+            padding-left: 25px;
+        }
+
+        .disco-m2-img img{
+            padding-left: 55px;
+            padding-top: 60px;
+            width: 320px;
+            height: 200px;
+        }
+
+        .explicacion-placa-video{ 
+            width: 60%;
+            font-size: 12.5px;
+            padding-left: 25px;
+        }
+
+        .placa-video-img img{
+            padding-left: 55px;
+            padding-top: 80px;
+            width: 320px;
+            height: 200px;
+        }
+
+        .explicacion-fuente-alimentacion{ 
+            width: 60%;
+            font-size: 12.5px;
+            padding-left: 25px;
+        }
+
+        .fuente-alimentacion-img img{
+            padding-left: 55px;
+            padding-top: 52px;
+            width: 320px;
+            height: 200px;
+        }
+
+    }
 
 
 @media only screen and (max-width : 700px) { /*Tamaño Tablet/celulares mas grandes*/
+    #placa-mother{
+        flex-direction: column;
+    }
 
-        @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:wght@400;700 & display=swap');
+    .explicacion-placa-mother{
+        width: 90%;
+        font-size: 12.5px;
+        padding-left: 15px;
+    }
 
-        
-        #section-1 .conteiner-principal{
-            font-size: 10px;
-            color: white;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/fondo-pricipal-responsive.jpg");
-            
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 5px;
-        }
-        
-        #section-1 .conteiner-principal{
-            display: flex;
-            font-size: 18px;
-            padding-left: 42px;
-        }
-        
-        #section-2{
-            padding: 10px;
-        }
-        
-        .conteiner-principal-2{
-            font-size: 13px;
-        }
-        
-        .conteiner-principal-2 .temario{
-            padding-left: 10px;
-        }
-        
-        #section-3-placa-mother .placa-mother-titulo{ /* Imagen placa mother con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-                ) 
-            ,url("../img/placa-mother.png");
-            
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        } 
-        
-        .explicacion-placa-mother{  /* Parrafo explicacion placa mother*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        } 
-        
-        #section-4-procesador .procesador-titulo{ /* Imagen procesador con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/procesador.jpg");
-            
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        }
-        
-        .explicacion-procesador{ /* Parrafo explicacion procesador*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }
-        
-        #section-5-memoria-ram .memoria-ram-titulo{ /* imagen memoria ram con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/memoria-ram.jpg");
-            
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        } 
-            
-        .explicacion-memoria-ram{ /* parrafo explicacion memoria ram*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }
-        
-        #section-6-disco-duro .disco-duro-titulo{ /* Imagen disco duro con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)  
-            ) 
-            ,url("./../img/disco-duro.jpg");
-            
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        }
-        
-        .explicacion-disco-duro{ /* Parrafo explicacion disco duro */
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        } 
-        
-        #section-7-disco-solido .disco-solido-titulo{ /* Imagen disco solido con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/disco-solido.png");
-            
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        } 
-            
-        .explicacion-disco-solido{ /* Parrafo explicacion disco solido*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }/* Fin disco solido*/
-        
-        #section-8-disco-m2 .disco-m2-titulo{ /* Imagen disco m.2 con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/disco-m.2-.png");
-            
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        }
-            
-        .explicacion-disco-m2{ /* Parrafo explicacion disco m.2*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }/* Fin disco m.2*/
-        
-        #section-9-placa-video .placa-video-titulo{ /* Imagen placa de video con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-            ) 
-            ,url("../img/placa-video.png");
+    .placa-mother-img img{
+        padding-top: 1px;
+        padding-left: 15px;
+        width: 320px;
+        height: 200px;
+    }
 
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 30px;
-        }
-        
-        .explicacion-placa-video{ /* Parrafo explicacion placa de video*/
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }/* fin placa de video*/
-        
-        #section-10-fuente-alimentacion .fuente-alimentacion-titulo{ /* Imagen fuente alimentacion con titulo h2*/
-            font-size: 18px;
-            color: white;
-            padding-left: 20px;
-            padding-top: 80px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.5),
-                rgba(0,0,0,0.5)  
-                ) 
-                ,url("../img/fuente-alimentacion-pc.png");
+    #procesador{
+        flex-direction: column;
+    }
 
-            background-repeat: no-repeat ;
-            background-size: cover;
-            background-position: center center;
-            height: 80px;
-            }
-            
-        .explicacion-fuente-alimentacion{ /* Parrafo explicacion fuente de alimentacion */
-            padding: 10px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            font-size: 13px;
-            color: #203243 ;
-        }/* Fin fuente de alimentacion*/
+    .explicacion-procesador{ 
+        width: 90%;
+        font-size: 12.5px;
+        padding-left: 15px;
+    } 
 
-        iframe{
-            padding-left: 10px;
-            width: 250px;
-            height: 200px;
-        }
-        
-        #iframe-video .texto{
-            padding-left: 10px;
-            font-size: 13px;
-            padding-top: 2px;
-        }
-        
-        video{
-            width: 250px;
-            height: 200px;
-            padding-left: 10px;
-            padding-top: 10px;
-            padding-bottom: 20px;
-        }
-        
-        #video .texto{
-            padding-left: 10px;
-            font-size: 13px;
-            padding-top: 20px;
-        }
+    .procesador-img img{
+        padding-top: 1px;
+        padding-left: 15px;
+        width: 320px;
+        height: 200px;
+    }
 
-        
-        .footer-nav ul li a{
-            text-decoration: none;
-        }
+    #memoria-ram{
+        flex-direction: column;
+    }
 
-        } 
+    .explicacion-memoria-ram{
+        width: 90%;
+        font-size: 12.5px;
+        padding-left: 15px;
+    }
+
+    .ram-img img{
+        padding-left: 15px;
+        padding-top: 1px;
+        width: 320px;
+        height: 200px;
+    }
+
+    #disco-duro{
+        flex-direction: column;
+    }
+
+    .explicacion-disco-duro{
+        width: 90%;
+        font-size: 12.5px;
+        padding-left: 15px;
+    } 
+
+    .disco-duro-img img{
+        padding-left: 10px;
+        padding-top: 1px;
+        width: 320px;
+        height: 200px;
+    }
+
+    #disco-solido{
+        flex-direction: column;
+    }
+
+    .explicacion-disco-solido{ 
+        width: 90%;
+        font-size: 12.5px;
+        padding-left: 15px;
+    }
+
+    .disco-solido-img img{
+        padding-left: 15px;
+        padding-top: 1px;
+        width: 320px;
+        height: 200px;
+    }
+
+    #disco-m2{
+        flex-direction: column;
+    }
+
+    .explicacion-disco-m2{ 
+        width: 90%;
+        font-size: 12.5px;
+        padding-left: 15px;
+    }
+
+    .disco-m2-img img{
+        padding-left: 15px;
+        padding-top: 1px;
+        width: 320px;
+        height: 200px;
+    }
+
+    #placa-video{
+        flex-direction: column;
+    }
+
+    .explicacion-placa-video{ 
+        width: 90%;
+        font-size: 12.5px;
+        padding-left: 15px;
+    }
+
+    .placa-video-img img{
+        padding-left: 15px;
+        padding-top: 1px;
+        width: 320px;
+        height: 200px;
+    }
+
+    #fuente-alimentacion{
+        flex-direction: column;
+    }
+
+    .explicacion-fuente-alimentacion{ 
+        width: 90%;
+        font-size: 12.5px;
+        padding-left: 15px;
+    }
+
+    .fuente-alimentacion-img img{
+        padding-left: 15px;
+        padding-top: 1px;
+        width: 320px;
+        height: 200px;
+    }
+
+    #form{
+        background-color: black;
+        margin: auto;
+        width: 75%;
+        max-width: 400px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        padding: 1em 2em;
+        border-radius: 15px;
+        background: transparent;
+        border: 3px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+    }
+    
+    .form-title{
+        font-size: 27.5px;
+    }
+    
+    .texto{
+        font-size: 15px;
+        padding-right: 130px;
+    }
+    
+    .form-container{
+        margin-top: 2em;
+        gap: 2.5em;
+    }
+    
+    .form-group{
+        position: relative;
+        color: rgb(0, 0, 0);
+    }
+    
+    .form-input{
+        border-radius: 8px;
+        height: 35px;
+        width: 100%;
+        background: none;
+    }
+    
+    .form-submit{
+        font-weight: bolder;
+        border-radius: 6px;
+        color: black;
+        height: 30px;
+        width: 20%;
+    }
+
+    .social-icons a{
+        text-decoration: none;
+        margin: 14px;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        opacity: 0.9;
+    }
+
+    .footer-nav{
+        padding-left: 5px;
+        text-align: center;
+        padding-bottom: 32px;
+    }
+    
+    .footer-nav a{
+        text-align: center;
+        color: white;
+        margin: 8px;
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+
+    #conocenos .texto-conocenos{
+        width: 88%;
+        font-size: 14.5px;
+        padding-left: 15px;;
+    }
+}
+

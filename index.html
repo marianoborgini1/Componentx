@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/style.css">
     <title>ComponentX</title>
 </head>
@@ -15,144 +14,78 @@
             <div class="logo">
                 <p><a href="#">ComponentX</a></p>
             </div>
-            <a href="#" class="active">Inicio</a>
-            <a href="./Pages/contactanos.html">Contacto</a>
-            <a href="./Pages/conocenos.html">Nosotros</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+                <ion-icon name="list-outline" class="burguer"></ion-icon>
+                <ion-icon name="close-circle-outline" class="exit"></ion-icon>
             </a>
+            <a href="#" class="active">Inicio</a>
+            <a href="#contactanos">Contacto</a>
+            <a href="#conocenos">Nosotros</a>
         </div>
     </header>
 
-    <section id="section-1">
-        <div class="conteiner-principal">
-            <h1>¿Qué son los <br> componentes?</h1>
-        </div>
-    </section>
+    <section id="img-principal"></section>
 
-    
-    <!--introduccion de la pagina -->
-    <section id="section-2">
-        <div class="conteiner-principal-2">  
-
-            <h2>
-                Introduccion:  
-            </h2>
-
-            <p>
-                Una <b> PC </b> o <b> computadora personal </b> está compuesta por varios componentes esenciales, incluyendo la unidad central de procesamiento <b> (CPU) </b>, la <b> placa madre </b>, la   memoria <b>RAM </b>,el<b> disco duro </b>, la<b> tarjeta gráfica </b>,la <b>fuente de poder</b> y los dispositivos de entrada y salida, tales como el teclado, el mouse y el monitor. Cada uno de estos componentes juega un papel importante en el funcionamiento de una <b> PC </b> y trabajan juntos para permitir la realización de tareas, la ejecución de programas y el acceso a internet y otros recursos.
-            </p> 
-            
+    <section id="temario-introduccion">
         <div class="temario"> 
-            <p>
-                Componentes Explicaciones:
-            </p>
-                <ul>
-                    <li>
-                    <a href="#section-3-placa-mother">
-                        Placa Mother
-                    </a> 
-                    </li>
-                    <br>
-
-                    <li>
-                        <a href="#section-4-procesador">
-                            Procesador (CPU)
-                        </a>
-                    </li>
-                    <br>
-
-                    <li>
-                        <a href="#section-5-memoria-ram">
-                            Memoria RAM
-                        </a>
-                    </li>
-                    <br>
-
-                    <li>
-                        <a href="#section-6-disco-duro">
-                            Disco Duro
-                        </a>
-                    </li>
-                    <br>
-
-                    <li>
-                        <a href="#section-7-disco-solido">
-                            Disco Solido
-                        </a>
-                    </li>
-                    <br>
-
-                    <li>
-                        <a href="#section-8-disco-m2">
-                            Disco Solido M.2
-                        </a>
-                    </li>
-                    <br>
-
-                    <li>
-                        <a href="#section-9-placa-video">
-                            Placa de Video
-                        </a>
-                    </li>
-                    <br>
-
-                    <li>
-                        <a href="#section-10-fuente-alimentacion">
-                            Fuente de Alimentacion
-                        </a>
-                    </li>
-                    <br>
-                </ul>
-                
+            <p>Componentes Explicaciones:</p>
+            <ul>
+                <li><a href="#placa-mother">Placa Mother</a> </li>
+                <br>
+                <li><a href="#procesador">Procesador (CPU)</a></li>
+                <br>
+                <li><a href="#memoria-ram">Memoria RAM</a></li>
+                <br>
+                <li><a href="#disco-duro">Disco Duro</a></li>
+                <br>
+                <li><a href="#disco-solido">Disco Solido</a></li>
+                <br>
+                <li><a href="#disco-m2">Disco Solido M.2</a></li>
+                <br>
+                <li><a href="#placa-video">Placa de Video</a>
+                </li>
+                <br>
+                <li><a href="#fuente-alimentacion">Fuente de Alimentacion</a></li>
+                <br>
+            </ul>
         </div>
-        
     </section>
 
-        <!-- desarrollo de la pagina, explicacion de los componentes -->
+    <hr>
+    <br>
 
-        <section id="section-3-placa-mother"> 
-            
-            <div class="placa-mother-titulo">
-                <h2>Placa Mother</h2>
-            </div>
-
-            <div class="explicacion-placa-mother">
-                <p>
-                    <b> La </b> <span> Placa Madre </span> es la plataforma de <b>  hardware </b>sobre la que se montan y conectan todos los demás componentes de la computadora, como la CPU, la RAM, la tarjeta de video, la tarjeta de sonido y los discos duros, entre otros. Sin ella, los componentes separados <b>no podrían interactuar entre sí </b>y la computadora no podría funcionar. <br>
-                    Las <b>  placas madre </b> suelen estar diseñadas para trabajar con un tipo específico de CPU, ya sea AMD o Intel. También especifican el tipo de CPU, el número de núcleos y la velocidad de reloj que son compatibles. Esto significa que la elección de una placa madre debe estar basada en el tipo de CPU que se desea usar, ya que <b> no todas las CPU son compatibles con todas las placas madre </b>. <br>
-                    Una<b>placa madre</b>consta de<b> varios componentes</b>,como el<b> chipset</b>,el <b>conector de la CPU</b>, los<b> slots de memoria </b>,los <b>  conectores de expansión</b> y los<b> conectores de periféricos </b>,<b>entre otros</b>. La mayoría de las <b> placas madre </b>  también <b> tienen un BIOS</b>, que es un programa básico de entrada y salida que<b> se encarga de las configuraciones y la inicialización del sistema</b>. <br>
-                    Las placas madre también varían en cuanto a su capacidad de expansión y funcionalidad. Algunas tienen varias ranuras de expansión para tarjetas adicionales, mientras que otras tienen menos. Las placas madre también pueden tener puertos adicionales para dispositivos, como USB, audio y Ethernet. <br>
-                    En resumen,<b>la placa madre es esencial para la construcción de una computadora funcional </b> y su elección debe basarse en el tipo de CPU que se desea utilizar, así como en la capacidad de expansión y funcionalidad que se requiere. <b>Es el componente que une y coordina todos los demás componentes de hardware de una computadora </b>, lo que hace que sea esencial entender su función y características.
+    <section id="placa-mother"> 
+        <div class="explicacion-placa-mother">
+            <h2>Placa Mother</h2>
+            <p>
+                <b> La </b> <span> Placa Madre </span> es la plataforma de <b>  hardware </b>sobre la que se montan y conectan todos los demás componentes de la computadora, como la CPU, la RAM, la tarjeta de video, la tarjeta de sonido y los discos duros, entre otros. Sin ella, los componentes separados <b>no podrían interactuar entre sí </b>y la computadora no podría funcionar. <br>
+                Las <b>  placas madre </b> suelen estar diseñadas para trabajar con un tipo específico de CPU, ya sea AMD o Intel. También especifican el tipo de CPU, el número de núcleos y la velocidad de reloj que son compatibles. Esto significa que la elección de una placa madre debe estar basada en el tipo de CPU que se desea usar, ya que <b> no todas las CPU son compatibles con todas las placas madre </b>. <br>
+                Una<b>placa madre</b>consta de<b> varios componentes</b>,como el<b> chipset</b>,el <b>conector de la CPU</b>, los<b> slots de memoria </b>,los <b>  conectores de expansión</b> y los<b> conectores de periféricos </b>,<b>entre otros</b>. La mayoría de las <b> placas madre </b>  también <b> tienen un BIOS</b>, que es un programa básico de entrada y salida que<b> se encarga de las configuraciones y la inicialización del sistema</b>. <br>
+                Las placas madre también varían en cuanto a su capacidad de expansión y funcionalidad. Algunas tienen varias ranuras de expansión para tarjetas adicionales, mientras que otras tienen menos. Las placas madre también pueden tener puertos adicionales para dispositivos, como USB, audio y Ethernet.
                 </p>
             </div>
-        </section>
-
-        <section id="section-4-procesador">
-
-            <div class="procesador-titulo">
-                <h2>Procesador (CPU)</h2>
+            <div class="placa-mother-img">
+                <img src="./img/placa-mother.png" alt="">
             </div>
-
+        </section>
+        <section id="procesador">
             <div class="explicacion-procesador">
+                <h2>Procesador (CPU)</h2>
                 <p>
                     <b> El </b> <span> Procesador</span> está <b> integrado</b> en la <b>placa base del ordenador</b> y se compone de distintos elementos que trabajan en conjunto para procesar los datos. Estos elementos incluyen la<b> unidad de control</b>, que <b>se encarga de gestionar el flujo de datos y controlar el acceso a la memoria;</b> la unidad aritmético-lógica, que realiza las operaciones matemáticas y lógicas necesarias; y los registros, que almacenan temporalmente los datos que se están procesando. <br>
                     <b> La velocidad del procesador se mide en megahercios (MHz) o en gigahercios (GHz)</b>. La velocidad indica la cantidad de operaciones que el procesador puede realizar por segundo. Cuanto mayor sea la velocidad del procesador, más rápido será el ordenador en general. Sin embargo, la velocidad no es el único factor que determina el rendimiento de un ordenador. <br>
                     Además de la velocidad, el procesador también se clasifica según el número de núcleos que tenga. <b>Un núcleo es una unidad de procesamiento independiente que trabaja en conjunto con otros núcleos para realizar las operaciones</b>. Cuantos más núcleos tenga el procesador, más rápido y eficiente el ordenador en general, ya que podrá realizar varias tareas de forma simultánea. <br>
                     Los procesadores modernos también utilizan<b> tecnologías </b>como la caché, que es una memoria temporal que almacena los datos que se utilizan con más frecuencia, para acelerar el proceso de procesamiento. También utiliza la <b>tecnología Hyper-Threading</b>, que simula varios núcleos virtuales para mejorar el rendimiento en tareas que requieren una gran cantidad de procesamiento. <br>
-                    Los<b> procesadores</b> también son susceptibles al sobrecalentamiento, por lo que suelen estar<b> equipados con disipadores de calor y ventiladores para evitar que se dañen por exceso de calor</b>. Los procesadores de alta gama también pueden estar equipados con <b>refrigeración líquida </b>para mantenerlos a una temperatura óptima. <br>
-                    <b>En resumen, el Procesador </b>es una pieza esencial de la tecnología informática que <b>se encarga de realizar las operaciones aritméticas y lógicas necesarias para el funcionamiento de un ordenador</b>. La velocidad y el número de núcleos son factores importantes que influyen en el rendimiento del procesador, y el uso de tecnologías como la memoria caché y la Hyper-Threading pueden mejorar aún más el rendimiento. <b>Los procesadores también requieren una refrigeración adecuada para evitar daños por sobrecalentamiento</b>.
+                    Los<b> procesadores</b> también son susceptibles al sobrecalentamiento, por lo que suelen estar<b> equipados con disipadores de calor y ventiladores para evitar que se dañen por exceso de calor</b>. Los procesadores de alta gama también pueden estar equipados con <b>refrigeración líquida </b>para mantenerlos a una temperatura óptima.
                 </p>
             </div>
-        </section>
-
-        <section id="section-5-memoria-ram">
-
-            <div class="memoria-ram-titulo">
-                <h2>Memoria RAM</h2>
+            <div class="procesador-img">
+                <img src="./img/procesador.jpg" alt="Procesador AMD">
             </div>
-
+        </section>
+        <section id="memoria-ram">
             <div class="explicacion-memoria-ram">
+                <h2>Memoria RAM</h2>
                 <p>
                     <b>La</b><span> RAM </span>es una <b>memoria volátil</b>, lo que significa que <b>su contenido se pierde cuando la energía eléctrica se desconecta</b>. A diferencia del almacenamiento permanente, como el disco duro o la memoria flash, <b>la RAM necesita una fuente de alimentación constante para mantener los datos</b>.
                     La mosta común para las PC es la <b>DDR (Double Data Rate)</b>, la cual es capaz de transferir datos dos veces por ciclo de reloj, lo que le permite tener un rendimiento excepcional. <br>
@@ -164,65 +97,56 @@
                     <b>En resumen, la memoria RAM es un componente vital para cualquier dispositivo que requiera un alto rendimiento</b>. La elección de la memoria RAM adecuada, que sea compatible y suficiente en capacidad y velocidad, puede mejorar significativamente el rendimiento de la computadora o dispositivo electrónico.
                 </p>
             </div>
-        </section>
-
-        <section id="section-6-disco-duro">
-
-            <div class="disco-duro-titulo">
-                <h2>Disco Duro</h2>
+            <div class="ram-img">
+                <img src="./img/memoria-ram.jpg" alt="Memoria Ram">
             </div>
-
+        </section>
+        <section id="disco-duro">
             <div class="explicacion-disco-duro">
+                <h2>Disco Duro</h2>
                 <p>
                     <b>El</b> <span>Disco Duro</span> <b> tiene una o varias partes internas que almacenan los datos</b>. Estas partes están conformadas por discos giratorios con un revestimiento de material magnético, en los que se escriben y leen los datos mediante un cabezal de lectura/escritura que se desplaza radialmente sobre la superficie magnética. Estos sistemas de <b>almacenamiento magnético</b> utilizan una cabeza de lectura/escritura montada en un actuador mecánico que gira rápidamente a través de una interfaz eléctrica para leer y escribir datos en el disco. <br>
                     Los discos duros están disponibles en diferentes tamaños y capacidades, desde pequeños discos duros portátiles hasta grandes discos duros empresariales. <b>Los discos duros también pueden ser internos o externos</b>. Los discos duros externos son unidades portátiles que se conectan a la computadora a través de un puerto USB o HDMI, mientras que los discos duros internos son una parte integral de la unidad central de procesamiento de la computadora. <br>
                     La <b>capacidad de almacenamiento de un disco duro se mide en gigabytes o terabytes</b>. Cuanto mayor sea la capacidad de almacenamiento, más datos se pueden almacenar. Los discos duros con mayor capacidad de almacenamiento se utilizan para almacenar grandes cantidades de datos, como archivos multimedia, documentos y aplicaciones. <br>
                     Los discos duros también pueden tener diferentes <b>velocidades de rotación, que se miden en revoluciones por minuto (RPM)</b>. A mayor velocidad de rotación, mayor será el rendimiento del disco duro, ya que se puede acceder a la información más rápidamente. Sin embargo, los discos pueden duros de alta velocidad también generar más calor y producir más ruido. <br>
-                    En general,<b> los discos duros son dispositivos confiables y duraderos que pueden durar varios años si se utilizan y mantienen adecuadamente</b>. Sin embargo, como cualquier componente electrónico,<b> los discos duros pueden fallar por diversas razones</b>, como la <b>exposición a condiciones extremas de temperatura o vibración, o el desgaste natural de los componentes mecánicos</b>. <br>
-                    <b>En resumen</b>, un disco duro <b>es un dispositivo de almacenamiento de datos que utiliza tecnología de grabación magnética para almacenar y recuperar información digital</b>. Los discos duros <b>se utilizan en una variedad de dispositivos electrónicos y están disponibles en diferentes tamaños y capacidades</b>. La capacidad de almacenamiento, la velocidad de rotación y la durabilidad son algunos de los factores a considerar al elegir un disco duro.
+                    En general,<b> los discos duros son dispositivos confiables y duraderos que pueden durar varios años si se utilizan y mantienen adecuadamente</b>. Sin embargo, como cualquier componente electrónico,<b> los discos duros pueden fallar por diversas razones</b>, como la <b>exposición a condiciones extremas de temperatura o vibración, o el desgaste natural de los componentes mecánicos</b>.
                 </p>
             </div>
-        </section>
-
-        <section id="section-7-disco-solido">
-
-            <div class="disco-solido-titulo">
-                <h2>Disco Solido</h2>
+            <div class="disco-duro-img">
+                <img src="./img/disco-duro.jpg" alt="Disco Duro">
             </div>
-
+        </section>
+        <section id="disco-solido">
             <div class="explicacion-disco-solido">
+                <h2>Disco Solido</h2>
                 <p>
                     <b>Los</b> <span>SSD (Solid-State Drives)</span> son dispositivos de almacenamiento de datos que se volvieron más comunes en la década de 2000. Han ganado popularidad debido a su alta <b>velocidad, durabilidad y eficiencia energética</b>. Hay diferentes <b>tipos de SSD</b> en el mercado, como el <b>SATA SSD, el NVMe SSD y el PCIe SSD</b>. El <b>SATA SSD</b> es el más común y utiliza los mismos puertos y cables que los discos duros tradicionales. <b>El NVMe SSD</b> ofrece una velocidad de transferencia de datos mucho más rápida, mientras que el <b>PCIe SSD</b> es el más rápido y utiliza un puerto PCIe dedicado para la transferencia de datos.
                     <br>
                     Una de las principales <b>ventajas de los SSD</b> es su velocidad, ya que tienen tiempos de acceso más rápidos y una mayor velocidad de escritura y lectura de datos que los HDD. También son más móviles duraderos al no tener partes, lo que hace <b>menos probables a fallas mecánicas</b>. Además, consumen menos energía y generan menos calor que los HDD. Sin embargo, los SSD son más costosos y tienen una capacidad de almacenamiento menor en comparación con los HDD de tamaño similar, lo que puede ser una limitación para algunos usuarios.
                     <br>
                     <b>En resumen</b>, <b>los SSD son dispositivos de almacenamiento rápidos, duraderos y eficientes energéticamente</b>. Aunque tienen algunas desventajas, como el costo y la capacidad limitada, su rendimiento superior los hace populares en sistemas de gama alta y tareas que requieren una alta velocidad de almacenamiento.
-                    
                 </p>
             </div>
-        </section>
-
-        <section id="section-8-disco-m2">
-
-            <div class="disco-m2-titulo">
-                <h2>Disco M.2</h2>
+            <div class="disco-solido-img">
+                <img src="./img/disco-solido.png" alt="">
             </div>
-
+        </section>
+        <section id="disco-m2">
             <div class="explicacion-disco-m2">
+                <h2>Disco M.2</h2>
                 <p>
                     <b>El</b> <span>disco M.2</span> es una <b>evolución</b> de los SSD tradicionales, con un diseño compacto que <b>se conecta directamente a la placa base sin cables adicionales</b>. Ofrece una <b>mayor velocidad de transferencia de datos</b> en comparación con los puertos SATA tradicionales. Hay <b>dos tipos comunes de discos M.2: el M.2 SATA, que tiene una velocidad similar a la de un SSD tradicional, y el M.2 NVMe, que utiliza la interfaz PCIe y ofrece velocidades de transferencia de datos hasta cinco veces superiores</b>. El disco M.2 también tiene un bajo consumo de energía al obtener energía directamente del bus PCIe. Es fácil de instalar y se reconoce automáticamente en el sistema operativo. <br>
+                    <b>En resumen</b>, <b>el disco M.2 es una unidad de almacenamiento compacta y rápida que se conecta directamente a la placa base, sin cables adicionales</b>. Ofrece una alta velocidad de transferencia de datos, bajo consumo de energía y una instalación sencilla, lo que lo convierte en una opción ideal para computadoras de escritorio, portátiles y dispositivos de baja potencia.<br>
                     <b>En resumen</b>, <b>el disco M.2 es una unidad de almacenamiento compacta y rápida que se conecta directamente a la placa base, sin cables adicionales</b>. Ofrece una alta velocidad de transferencia de datos, bajo consumo de energía y una instalación sencilla, lo que lo convierte en una opción ideal para computadoras de escritorio, portátiles y dispositivos de baja potencia.
                 </p>
             </div>
-        </section>
-    
-        <section id="section-9-placa-video">
-
-            <div class="placa-video-titulo">
-                <h2>Placa de Video</h2>
+            <div class="disco-m2-img">
+                <img src="./img/disco-m.2-.png" alt="Disco M.2">
             </div>
-            
+        </section>
+            <section id="placa-video">
             <div class="explicacion-placa-video">
+                <h2>Placa de Video</h2>
                 <p>
                     <b>Una</b> <span>placa de video</span> está hecha de circuitos integrados y dispone de memoria de video dedicada a procesar y generar las imágenes en el monitor o pantalla. <br>
                     <b>La placa de video es una vital para la experiencia de videojuegos, edición de video y cualquier otra actividad que requiera una alta tasa de gráficos, resoluciones y velocidades de procesamiento</b>. <br>
@@ -233,66 +157,74 @@
                     <b>En resumen</b>, <b>una placa de video es un componente esencial en la informática moderna</b>, encargado de procesar y generar gráficos de alta calidad, resolución y velocidad para una amplia gama de aplicaciones, incluidos videojuegos, diseño gráfico y edición de video. Su elección llegó de las necesidades y especificaciones del equipo y del usuario.
                 </p>
             </div>
-        </section>
-
-        <section id="section-10-fuente-alimentacion">
-
-            <div class="fuente-alimentacion-titulo">
-                <h2>Fuente de <br> Alimentacion</h2>
+            <div class="placa-video-img">
+                <img src="./img/placa-video.png" alt="">
             </div>
-
+        </section>
+        <section id="fuente-alimentacion">
             <div class="explicacion-fuente-alimentacion">
+                <h2>Fuente de Alimentacion</h2>
                 <p>
                     <b>La</b> <span>fuente de alimentación</span> de una PC <b>transforma la corriente eléctrica de entrada en una corriente continua de voltajes específicos para alimentar los componentes internos de la computadora</b>. Además de convertir la corriente, las fuentes de alimentación modernas incluyen características de protección y ventiladores para evitar <b>sobrecalentamientos y daños</b>. La selección de una fuente de alimentación adecuada implica considerar el <b>rendimiento</b>, la <b>eficiencia energética</b>, la <b>capacidad de potencia</b> y la <b>compatibilidad con los componentes de la computadora</b>. También existen diferentes tamaños y tipos de fuentes de alimentación, como las <b>estándar y las modulares</b>. Es importante recordar que <b>las fuentes de alimentación no son intercambiables entre computadoras</b> debido a las necesidades específicas de energía y voltaje de los componentes internos. <br>
-                    Además, con el aumento en la demanda de energía de los componentes de alto rendimiento, como las tarjetas gráficas y los procesadores potentes, es importante asegurarse de contar con una <b>fuente de alimentación con la capacidad de potencia adecuada para evitar problemas de estabilidad y garantizar un funcionamiento óptimo del sistema</b>. Una fuente de alimentación de calidad y confiable es crucial para mantener la integridad de la computadora y garantizar un suministro de <b>energía constante y seguro para todos los componentes</b>.
+                    Además, con el aumento en la demanda de energía de los componentes de alto rendimiento, como las tarjetas gráficas y los procesadores potentes, es importante asegurarse de contar con una <b>fuente de alimentación con la capacidad de potencia adecuada para evitar problemas de estabilidad y garantizar un funcionamiento óptimo del sistema</b>. Una fuente de alimentación de calidad y confiable es crucial para mantener la integridad de la computadora y garantizar un suministro de <b>energía constante y seguro para todos los componentes</b>. 
+                </p>
                 </p>
             </div>
-        </section> <!-- fin del desarrollo de la pagina y explicacion de los componentes -->
+            <div class="fuente-alimentacion-img">
+                <img src="./img/fuente-alimentacion-pc.png" alt="Fuente de Alimentacion">
+            </div>
+        </section>
 
-        <section id="iframe-video">
-            <div class="texto">
-                <div class="titulo">
-                    <h2>Segui Aprendiendo</h2>
+        <hr>
+
+        <section id="contactanos">
+            <form id="form"> <!--Formulario Contacto-->
+                <h2 class="form-title">Contactate con Nosotros</h2>
+            <div class="form-container">
+                <div class="form-group"> 
+                    <label for="email" class="form-label"> <b> Correo Electronico: </b> </label>
+                    <input type="email" id="email" class="form-input" placeholder="">
+                    <span class="form-line"></span>
                 </div>
 
-                <p>Informate mas con este video de <a href="https://www.youtube.com/@NateGentile7" target="_blank">Nate Gentile</a> sobre todos los componentes vistos hasta ahora en la pagina.</p>
-            </div>
+                <div class="form-container">
+                    <label for="text" class="form-label"> <b> Numero de Celular: </b> </label>
+                    <input type="number" id="number" class="form-input" placeholder="">
+                    <span class="form-line"></span>
+                </div>
+            </div> 
+            <br>
 
-            <div class="iframe"> 
-                <iframe src="https://www.youtube.com/embed/0zkX6nlpiSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <input type="submit" class="form-submit" value="Enviar" onclick="return datosCorrectos()">
+        </form>
+
+        <section id="conocenos"> 
+            <div class="texto-conocenos"> 
+                <h2>Sobre Nosotros</h2>
+                <p>
+                    Somos <span><b>ComponentX</b></span>  y nos complace presentarnos como una comunidad dedicada a la enseñanza y explicación del mundo de la tecnología.
+                    La idea de crear esta página surgió con la necesidad de hacer accesible el conocimiento sobre tecnología a todas aquellas personas que desean adentrarse en el mundo de las computadoras y componentes electrónicos. Nuestro objetivo es proporcionar información clara y sencilla para que puedas entender los conceptos básicos y avanzados. Nuestro equipo de expertos apasionados por la tecnología está comprometido a brindarte la información más actualizada y relevante. Nos enorgullece poder contribuir a la educación y formación de quienes desean aprender sobre tecnología. 
+                    Te invitamos a navegar por nuestra página y descubrir todo lo que tenemos para ofrecerte. Esperamos que encuentres en nuestra página toda la información que necesitas para satisfacer tus dudas y que disfrutes de una experiencia educativa enriquecedora. ¡Gracias por visitarnos!
+                </p>
             </div>
+        </section>  
+
         </section>
-
-        <section id="video">
-            <div class="texto">
-                <p>Te dejamos tambien este video sencillo y corto para que entiendas como funcionan las Computadoras.</p>
-            </div>
-            <video src="./media/como-funciona-una-pc-en-2-minutos.mp4"controls class="video"></video>
-        </section>
-
         <footer>
             <div class="footer-conteiner">
+
                 <div class="social-icons">
-                    <a href="https://www.facebook.com/" class="fa-brands fa-facebook"><i></i></a>
-                    <a href="https://www.instagram.com/" class="fa-brands fa-instagram"><i></i></a>
-                    <a href="https://twitter.com/?lang=es" class="fa-brands fa-twitter"><i></i></a>
-                    <a href="https://www.youtube.com/" class="fa-brands fa-youtube"><i></i></a>
+                    <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-github"></ion-icon></a>
+                    <a href=""><ion-icon name="mail-outline"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
                 </div>
 
                 <div class="footer-nav">
-                    <ul>
-                        <li>
-                            <a href="index.html">Inicio</a>
-                        </li>
-
-                        <li>
-                            <a href="./Pages/contactanos.html">Contacto</a>
-                        </li>
-
-                        <li>
-                            <a href="./Pages/conocenos.html">Nosotros</a>
-                        </li>
-                    </ul>
+                    <a href="index.html">Inicio</a>
+                    <a href="#contactanos">Contacto</a>
+                    <a href="#conocenos">Nosotros</a>
                 </div>
 
                 <div class="footer-bottom">
@@ -303,5 +235,7 @@
             </div>
         </footer>
         <script src="scripts/index.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
